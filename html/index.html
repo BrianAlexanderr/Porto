@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Alexander</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Brian Alexander</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Brian Alexander</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="../assets/Img/WhatsApp Image 2025-09-18 at 19.38.30_8bde5c38.jpg" alt="Brian Alexander Profile Picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1"> Hello, I'm</p>
+            <h1 class="title">Brian Alexander</h1>
+            <p class="section_text_p2">College Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('../assets/pdf/Brian Alexander.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img 
+                    src="../assets/Img/linkedin.png" 
+                    alt="My LinkedIn Profile" 
+                    class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/brian-alexander-490ab0319'"
+                />
+                <img 
+                    src="../assets/Img/github.png" 
+                    alt="My GitHub Profile" 
+                    class="icon" 
+                    onclick="location.href='https://github.com/BrianAlexanderr'"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+            <img 
+                src="../assets/Img/WhatsApp Image 2025-09-18 at 19.38.29_6d7cbbff.jpg" 
+                alt="About Me Picture"
+                class="about-pic"
+            />
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img 
+                            src="../assets/Img/experience.png" 
+                            alt="experience icon"
+                            class="icon"
+                        />
+                        <h1>Experience</h1>
+                        <p>Multiple Projects Built</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                            src="../assets/Img/education.png" 
+                            alt="education icon"
+                            class="icon"
+                        />
+                        <h1>Education</h1>
+                        <p>5th Semester of Computer Science student <br/> Bina Nusantara University</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hello, my name is Brian Alexander.I am currently pursuing Bachelor's Degree in Computer Science at Binus University, with a focus on Intelligence Systems at the Alam Sutera campus. I have a strong interest in data, artificial intelligence, and software development.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="../assets/Img/arrow.png" 
+            alt="arrow icon" class="icon arrow" 
+            onclick="location.href='./#skills'"
+        />
+    </section>
+    <section id="skills">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="skill-sub-title">
+                        Web & Mobile Development
+                    </h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa-brands fa-html5 skill-icon"></i>
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-css skill-icon"></i>
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-js skill-icon"></i>
+                            <div>
+                                <h3>JS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-react skill-icon"></i>
+                            <div>
+                                <h3>React</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-flutter skill-icon"></i>
+                            <div>
+                                <h3>Flutter</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-python skill-icon"></i>
+                            <div>
+                                <h3>Django</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-node-js skill-icon"></i>
+                            <div>
+                                <h3>NodeJS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-database skill-icon"></i>
+                            <div>
+                                <h3>PostgreSQL</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skill-sub-title">
+                        AI & Data Science
+                    </h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa-brands fa-python skill-icon"></i>
+                            <div>
+                                <h3>Tensorflow</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-python skill-icon"></i>
+                            <div>
+                                <h3>Pytorch</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-python skill-icon"></i>
+                            <div>
+                                <h3>Matplotlib</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-python skill-icon"></i>
+                            <div>
+                                <h3>Pandas</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-brands fa-python skill-icon"></i>
+                            <div>
+                                <h3>Transformer</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="../assets/Img/arrow.png" 
+            alt="arrow icon" class="icon arrow" 
+            onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="../assets/Img/Frame 18.png" 
+                            alt="project img" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="skill-sub-title project-title">MedicAI</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/BrianAlexanderr/Front-End-MedicAI'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1AQHR6tFOWqOq9a5vtYj3agYbbnUsYq91/view?usp=sharing'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="../assets/Img/MacBook_01.png" 
+                            alt="project img" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="skill-sub-title project-title">Spam Detection</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/BrianAlexanderr/ML_Project'">
+                            GitHub
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="../assets/Img/Screenshot 2025-09-18 193459.png" 
+                            alt="project img" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="skill-sub-title project-title">Research</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/BrianAlexanderr/Lomba-Gemastik-2025'">
+                            GitHub
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="../assets/Img/WhatsApp-Image-2023-12-26-at-07.49.46.jpeg" 
+                            alt="project img" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="skill-sub-title project-title">Comparing NLP Models</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/BrianAlexanderr/NLP-Projects'">
+                            GitHub
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="../assets/Img/stockai.png" 
+                            alt="project img" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="skill-sub-title project-title">MedicAI</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/BrianAlexanderr/StockAI'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1BV4egWze1UGQr4wg_kE5eeIH7d8ZbQ79/view?usp=sharing'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                    src="../assets/Img/email.png" 
+                    alt="mail" 
+                    class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:brian.alexander@binus.ac.id">brian.alexander@binus.ac.id</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                    src="../assets/Img/linkedin.png" 
+                    alt="linkedin" 
+                    class="icon contact-icon"
+                />
+                <p><a href="www.linkedin.com/in/brian-alexander-490ab0319">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Brian Alexander. All Rights Reserved</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
